@@ -1,0 +1,919 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=yes" />
+
+	<script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
+	<link rel="stylesheet" href="./css/app.css">
+	<title>야추</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="btnArea">
+			<button class="btn open">룰</button>
+		</div>
+
+		<div class="tableWrap">
+			<table class="tableDefault">
+				<colgroup>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+				</colgroup>
+				<thead class="thead1">
+					<tr>
+						<th></th>
+						<th>name0</th>
+						<th>name1</th>
+						<th>name2</th>
+						<th>name3</th>
+					</tr>
+				</thead>
+				<tbody class="tbody1">
+					<tr>
+						<th>Ones</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Twos</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="2">2</option>
+								<option value="4">4</option>
+								<option value="6">6</option>
+								<option value="8">8</option>
+								<option value="10">10</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="2">2</option>
+								<option value="4">4</option>
+								<option value="6">6</option>
+								<option value="8">8</option>
+								<option value="10">10</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="2">2</option>
+								<option value="4">4</option>
+								<option value="6">6</option>
+								<option value="8">8</option>
+								<option value="10">10</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="2">2</option>
+								<option value="4">4</option>
+								<option value="6">6</option>
+								<option value="8">8</option>
+								<option value="10">10</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Threes</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="3">3</option>
+								<option value="6">6</option>
+								<option value="9">9</option>
+								<option value="12">12</option>
+								<option value="15">15</option>
+								<option value="18">18</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="3">3</option>
+								<option value="6">6</option>
+								<option value="9">9</option>
+								<option value="12">12</option>
+								<option value="15">15</option>
+								<option value="18">18</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="3">3</option>
+								<option value="6">6</option>
+								<option value="9">9</option>
+								<option value="12">12</option>
+								<option value="15">15</option>
+								<option value="18">18</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="3">3</option>
+								<option value="6">6</option>
+								<option value="9">9</option>
+								<option value="12">12</option>
+								<option value="15">15</option>
+								<option value="18">18</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Fours</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="4">4</option>
+								<option value="8">8</option>
+								<option value="12">12</option>
+								<option value="16">16</option>
+								<option value="20">20</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="4">4</option>
+								<option value="8">8</option>
+								<option value="12">12</option>
+								<option value="16">16</option>
+								<option value="20">20</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="4">4</option>
+								<option value="8">8</option>
+								<option value="12">12</option>
+								<option value="16">16</option>
+								<option value="20">20</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="4">4</option>
+								<option value="8">8</option>
+								<option value="12">12</option>
+								<option value="16">16</option>
+								<option value="20">20</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Fives</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="10">10</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+								<option value="25">25</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="10">10</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+								<option value="25">25</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="10">10</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+								<option value="25">25</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="10">10</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+								<option value="25">25</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Sixes</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="6">6</option>
+								<option value="12">12</option>
+								<option value="18">18</option>
+								<option value="24">24</option>
+								<option value="30">30</option>
+								<option value="36">36</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="6">6</option>
+								<option value="12">12</option>
+								<option value="18">18</option>
+								<option value="24">24</option>
+								<option value="30">30</option>
+								<option value="36">36</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="6">6</option>
+								<option value="12">12</option>
+								<option value="18">18</option>
+								<option value="24">24</option>
+								<option value="30">30</option>
+								<option value="36">36</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="6">6</option>
+								<option value="12">12</option>
+								<option value="18">18</option>
+								<option value="24">24</option>
+								<option value="30">30</option>
+								<option value="36">36</option>
+							</select>
+						</td>
+					</tr>
+				</tbody>
+				<tbody class="tbody2">
+					<tr>
+						<th>Sum</th>
+						<td><input type="number" name="player0" value="" readonly></td>
+						<td><input type="number" name="player1" value="" readonly></td>
+						<td><input type="number" name="player2" value="" readonly></td>
+						<td><input type="number" name="player3" value="" readonly></td>
+					</tr>
+
+					<tr>
+						<th>Bonus</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="35">35</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="35">35</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="35">35</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="35">35</option>
+							</select>
+						</td>
+					</tr>
+				</tbody>
+				<tbody class="tbody3">
+					<tr>
+						<th>3 Kinds</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>4 Kinds</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Full H</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="25">25</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="25">25</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="25">25</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="25">25</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Small S</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Large S</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="40">40</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="40">40</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="40">40</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="40">40</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Chance</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">X</option>
+								<option value="0">0</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>야추</th>
+						<td>
+							<select name="player0" id="">
+								<option value="0">0</option>
+								<option value="100">100</option>
+							</select>
+						</td>
+						<td>
+							<select name="player1" id="">
+								<option value="0">0</option>
+								<option value="100">100</option>
+							</select>
+						</td>
+						<td>
+							<select name="player2" id="">
+								<option value="0">0</option>
+								<option value="100">100</option>
+							</select>
+						</td>
+						<td>
+							<select name="player3" id="">
+								<option value="0">0</option>
+								<option value="100">100</option>
+							</select>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot class="tfoot1">
+					<tr>
+						<th>Total</th>
+						<td><input type="number" name="player0" value="" readonly></td>
+						<td><input type="number" name="player1" value="" readonly></td>
+						<td><input type="number" name="player2" value="" readonly></td>
+						<td><input type="number" name="player3" value="" readonly></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+
+		<div class="popupWrap">
+			<div class="dimmed"></div>
+			<div class="popArea">
+				<div class="popHeader">
+					<h1>야추 다이스 족보</h1>
+					<button class="btn close">닫기</button>
+				</div>
+				<div class="popContainer">
+					<div class="imgBox">
+						<img src="./images/img-rule-1.png" alt="">
+					</div>
+					<div class="imgBox">
+						<img src="./images/img-rule-2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
