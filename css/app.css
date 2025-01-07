@@ -55,8 +55,8 @@ tfoot td input{min-height:40px; background:#efefef; }
 .popupWrap .popArea .popHeader{display:flex; justify-content: space-between; align-items: center; padding:10px; height:40px;}
 .popupWrap .popArea .popHeader h1{font-weight:700;}
 .popupWrap .popArea .popHeader .btn.close{position:relative; font-size:0; width:40px;height:40px;}
-.popupWrap .popArea .popHeader .btn.close:before{position:absolute; top:17px; left:2px; transform:rotate(45deg); content:'';display:block;width:40px;height:2px;background:black;}
-.popupWrap .popArea .popHeader .btn.close:after{position:absolute; top:17px; left:2px; transform:rotate(-45deg); content:'';display:block;width:40px;height:2px;background:black;}
+.popupWrap .popArea .popHeader .btn.close:before{position:absolute; top:20px; left:7px; transform:rotate(45deg); content:'';display:block;width:30px;height:2px;background:black;}
+.popupWrap .popArea .popHeader .btn.close:after{position:absolute; top:20px; left:7px; transform:rotate(-45deg); content:'';display:block;width:30px;height:2px;background:black;}
 .popupWrap .popArea .popContainer{padding-top:20px; width:100%; height:calc(100vh - 40px); overflow-y: auto;}
 .popupWrap .popArea .popContainer .imgBox{width:100%;}
 .popupWrap .popArea .popContainer .imgBox + .imgBox{margin-top:40px;}
